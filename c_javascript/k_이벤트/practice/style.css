@@ -1,0 +1,35 @@
+#todo-app {
+  width: 200px;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+#todo-input{
+  width: 140px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#add-button {
+  margin-top: 10px;
+
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+/* 동적 생성될 li태그 스타일링*/
+
+.todo-item {
+  margin-top: 10px;
+
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
