@@ -1,0 +1,4 @@
+# .gitignore의 주석은 샵
+#
+node_modules/
+*/node_modules
