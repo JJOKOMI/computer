@@ -27,7 +27,7 @@ let list2: Array<number> = [4, 5, 6];
 // function voidType() {
 //   return;
 // }
-function voidType(parameter: number): void {
+function voidType(parameter: number): void { // 함수는 파라미터 타입 무조건 명시해야함
   // 함수의 타입 정의
   // 파라미터와 반환값 정의가능
   // ts에서 "파라미터"에 타입을 명시하지 않으면 오류 발생 : 함수내에서 사용할 변수에 대한 안정성을 요구
@@ -49,7 +49,7 @@ console.log(stringReturn('1', '2')); // stringReturn()에 값이 없으면 인�
 
 //js/ts에서의 차이점
 
-let nullType: null; // null지정하면 밑에 두개 오류뜸
+let nullType: null; // null지정하면 밑에 두개 오류뜸, 변수값 못넣음
 // nullType = 3;
 // nullType = 'hi';
 
